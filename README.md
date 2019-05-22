@@ -1,6 +1,7 @@
 # vQueue - Group finder utility for Vanilla Wow
 ### v1.2.9 NimbixEdit v1
 - Changed font
+- Changed fontsize
 
 ### v1.2.9
 
