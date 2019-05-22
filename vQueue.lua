@@ -2244,7 +2244,7 @@ function vQueue_addToGroup(category, groupinfo)
 	end
 	if groups[category][args[2]] == nil then
 		newHostEntry = CreateFrame("Button", "vQueueButton", vQueueFrame.hostlist)
-		newHostEntry:SetFont("Interface\\AddOns\\vQueue\\media\\archangelsk.TTF", 10)
+		newHostEntry:SetFont("Interface\\AddOns\\vQueue\\media\\myriadprosb.ttf", 12)
 --		newHostEntry:SetFont("Fonts\\FRIZQT__.TTF", 10)
 		newHostEntry:SetText(args[1])
 		newHostEntry:SetTextColor(vQueueColors["YELLOW"][1], vQueueColors["YELLOW"][2], vQueueColors["YELLOW"][3])
@@ -2299,7 +2299,7 @@ function vQueue_addToGroup(category, groupinfo)
 		end
 		
 		newHostEntryName = newHostEntry:CreateFontString(nil, "ARTWORK")
-		newHostEntryName:SetFont("Interface\\AddOns\\vQueue\\media\\archangelsk.TTF", 10)
+		newHostEntryName:SetFont("Interface\\AddOns\\vQueue\\media\\myriadprosb.ttf", 12)
 		newHostEntryName:SetText(args[2])
 		newHostEntryName:SetPoint("LEFT", newHostEntry, "LEFT", 211, 0)
 		newHostEntryName:SetWidth(newHostEntryName:GetStringWidth())
@@ -2308,7 +2308,7 @@ function vQueue_addToGroup(category, groupinfo)
 		
 		local diffColor = getDifficultyColor(tonumber(args[3]), UnitLevel("player"))
 		newHostEntryLevel = newHostEntry:CreateFontString(nil, "ARTWORK")
-		newHostEntryLevel:SetFont("Interface\\AddOns\\vQueue\\media\\archangelsk.TTF", 10)
+		newHostEntryLevel:SetFont("Interface\\AddOns\\vQueue\\media\\myriadprosb.ttf", 12)
 		newHostEntryLevel:SetText(args[3])
 		newHostEntryLevel:SetPoint("LEFT", newHostEntry, "LEFT", 287, 0)
 		newHostEntryLevel:SetWidth(newHostEntryLevel:GetStringWidth())
