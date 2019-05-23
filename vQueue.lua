@@ -2299,7 +2299,7 @@ function vQueue_addToGroup(category, groupinfo)
 		end
 		
 		newHostEntryName = newHostEntry:CreateFontString(nil, "ARTWORK")
-		newHostEntryName:SetFont("Interface\\AddOns\\vQueue\\media\\myriadprosb.ttf", 11)
+		newHostEntryName:SetFont("Interface\\AddOns\\vQueue\\media\\myriadprosb.ttf", 10)
 		newHostEntryName:SetText(args[2])
 		newHostEntryName:SetPoint("LEFT", newHostEntry, "LEFT", 211, 0)
 		newHostEntryName:SetWidth(newHostEntryName:GetStringWidth())
